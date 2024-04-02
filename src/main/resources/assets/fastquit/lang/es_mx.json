@@ -1,0 +1,32 @@
+{
+  "fastquit.toast.title": "¡FastQuit completado!",
+  "fastquit.toast.description": "Se ha terminado de guardar \"%s\"",
+  "fastquit.toast.deleted": "\"%s\" ha sido eliminado",
+
+  "fastquit.screen.waiting": "Esperando a que \"%s\" termine de guardar...",
+
+  "fastquit.config.general.showSavingTime.toastsOnly": "Solo toasts",
+  "fastquit.config.performance.backgroundPriority.1": "1 (Mínimo)",
+  "fastquit.config.performance.backgroundPriority.2": "2 (Recomendado)",
+  "fastquit.config.performance.backgroundPriority.5": "5 (Predeterminado)",
+  "fastquit.config.performance.backgroundPriority.10": "10 (Máximo)",
+  "fastquit.config.compat.allowMultipleServers.disabledForCompat": "§cEsta opción está desactivada para evitar problemas con los siguientes mods:\n%s",
+
+  "text.autoconfig.fastquit.title": "FastQuit",
+  "text.autoconfig.fastquit.category.default": "General",
+  "text.autoconfig.fastquit.option.renderSavingScreen": "Mostrar pantalla de \"Guardando mundo\"",
+  "text.autoconfig.fastquit.option.renderSavingScreen.@Tooltip": "Cuando se juega con una distancia de renderizado alta, salir del mundo puede llevar un poco de tiempo porque se debe limpiar el almacenamiento de fragmentos del lado del cliente.\nAl habilitar esta configuración, se mostrará la pantalla de \"Guardando mundo\".",
+  "text.autoconfig.fastquit.option.showToasts": "Mostrar toasts",
+  "text.autoconfig.fastquit.option.showToasts.@Tooltip": "Determina si se muestra un toast cuando un mundo termina de guardar.",
+  "text.autoconfig.fastquit.option.showSavingTime": "Mostrar tiempo de guardado",
+  "text.autoconfig.fastquit.option.showSavingTime.@Tooltip": "Determina si se muestra el tiempo que llevó/lleva guardar el mundo en los toasts y la lista de mundos.",
+  "text.autoconfig.fastquit.category.performance": "Rendimiento",
+  "text.autoconfig.fastquit.option.backgroundPriority": "Prioridad del hilo en segundo plano",
+  "text.autoconfig.fastquit.option.backgroundPriority.@Tooltip": "Establece la prioridad del hilo del servidor al guardar mundos en segundo plano.\nEsto se hace para mejorar el rendimiento del cliente mientras se guarda, pero hará que el guardado tarde más en general.",
+  "text.autoconfig.fastquit.category.compat": "Compatibilidad con mods",
+  "text.autoconfig.fastquit.option.allowMultipleServers": "Permitir múltiples mundos en ejecución",
+  "text.autoconfig.fastquit.option.allowMultipleServers.@Tooltip": "Cuando esta opción está habilitada, puedes unirte a un nuevo mundo mientras el anterior aún se está guardando.\nEsto es seguro de hacer en Minecraft vanilla, pero algunos mods pueden tener problemas cuando se ejecutan 2 servidores al mismo tiempo.",
+
+  "fastquit.modmenu.summaryTranslation.fastquit": "¡Regresa a la pantalla principal mientras el mundo aún se está guardando!",
+  "fastquit.modmenu.descriptionTranslation.fastquit": "Este mod te permite regresar a la pantalla principal antes de tiempo mientras tu mundo aún se está guardando en segundo plano."
+}
